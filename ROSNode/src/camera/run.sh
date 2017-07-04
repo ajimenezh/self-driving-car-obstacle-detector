@@ -1,0 +1,7 @@
+DIR="./src/camera_radar/"
+
+cd $DIR
+
+python2.7 setup.py build_ext --inplace
+
+cd ../../
